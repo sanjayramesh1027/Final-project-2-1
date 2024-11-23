@@ -14,6 +14,14 @@ header {
     background-color: #4CAF50; /* Green header */
     color: white;
 }
+header img {
+    width: 100%; /* Make the header image span the full width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 200px; /* Keep it visually proportionate */
+    object-fit: cover; /* Ensure the image looks good even if cropped */
+    border-radius: 5px; /* Optional: Rounded corners */
+    margin-bottom: 10px; /* Add spacing below the header */
+}
 
 header img {
     width: 150px; /* Adjust the logo size if necessary */
